@@ -8,3 +8,43 @@
 .catchphrase {
     text-align: center;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  transition: background 0.5s;
+  background-color: rgb(35, 39, 54);
+  position: fixed;
+  width: 100%;
+}
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  margin-left: -235px;
+}
+.brand a {
+  text-decoration: none;
+  color: white;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-right: -15%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.nav-content li {
+  list-style: none;
+}
+.nav-content a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+}
